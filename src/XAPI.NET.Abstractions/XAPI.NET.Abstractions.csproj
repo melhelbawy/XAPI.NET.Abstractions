@@ -1,9 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Xapi .NET abstractions</Title>
+    <Authors>Mohamed Elhelbawi</Authors>
+    <Company>Dagja</Company>
+    <Description>This is common abstract fucntionality to start with XAPI for .NET</Description>
+    <Copyright>Public open source</Copyright>
+    <RepositoryUrl>https://github.com/melhelbawy/XAPI.NET.Abstractions</RepositoryUrl>
+    <PackageTags>XAPI, XAPI.NET,</PackageTags>
+    <UserSecretsId>28f3ac2a-213b-476a-a3cb-12f6e9377cd5</UserSecretsId>
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
   </PropertyGroup>
 
 </Project>
